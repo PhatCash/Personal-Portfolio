@@ -1,3 +1,4 @@
+/* Essential starting element */
 * {
   padding: 0;
   margin: 0;
@@ -14,3 +15,65 @@
   --violetred: #a2106d;
   --orange: #ffa500;
 }
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.header-container {
+  width: 100%;
+  background-color: var(--black);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+}
+
+.navbar a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1em;
+}
+
+h1 {
+  text-align: center;
+  color: var(--black);
+}
+
+h2 {
+  color: var(--black);
+}
+
+/* About section */
+
+.img {
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.bio {
+  margin: 20px auto;
+  width: 380px;
+  text-align: center;
+}
+
+.bio::first-line {
+  font-weight: bold;
+}
+
+.list-container {
+  margin-top: 10px;
+  list-style: circle;
+  padding-left: 40px;
+  padding-bottom: 20px;
+}
+
+/* Previous Work Secion */
