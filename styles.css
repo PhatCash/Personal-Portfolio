@@ -23,7 +23,7 @@ body {
 /* Navbar Section */
 .header-container {
   width: 100%;
-  background-color: var(--black);
+  background-color: var(--teal);
 }
 
 .navbar {
@@ -36,12 +36,12 @@ body {
 .navbar a {
   color: var(--white);
   text-decoration: none;
-  font-size: 1em;
+  font-size: larger;
 }
 
 h1 {
   text-align: center;
-  color: var(--black);
+  color: var(--teal);
 }
 
 /* About Section */
@@ -74,7 +74,56 @@ h1 {
 }
 
 /* Previous Work Section */
+
 /* Project Work Section */
+#project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.project-title {
+  margin-top: 20px;
+  color: var(--teal);
+}
+
+.project-text {
+  margin-bottom: 15px;
+  font-size: larger;
+  color: var(--black);
+  text-align: center;
+  font-weight: bold;
+}
+
+.project-list {
+  border: 2px solid var(--teal);
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: var(--white);
+  list-style-type: none;
+  width: 80%;
+}
+
+.project-des {
+  margin-top: 10px;
+  color: var(--gray);
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: var(--teal);
+  color: var(--white);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.project-link:hover {
+  background-color: var(--violetred);
+}
 
 /* Form Section */
 #form {
@@ -84,7 +133,7 @@ h1 {
 }
 
 .form-container {
-  border: 2px solid var(--black);
+  border: 2px solid var(--teal);
   padding: 80px 150px;
 }
 
@@ -94,6 +143,7 @@ h1 {
   display: flex;
   align-items: center;
   font-size: larger;
+  color: var(--teal);
 }
 
 .form-group label {
@@ -111,7 +161,7 @@ h1 {
 }
 
 .primary-btn {
-  background-color: var(--black);
+  background-color: var(--teal);
   color: var(--white);
   border: none;
   padding: 10px 60px;
