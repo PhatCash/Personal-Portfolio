@@ -43,10 +43,6 @@ h1 {
   color: var(--black);
 }
 
-h2 {
-  color: var(--black);
-}
-
 /* About section */
 
 .img {
@@ -77,3 +73,62 @@ h2 {
 }
 
 /* Previous Work Secion */
+/* Project Work Secion */
+
+/* Form Secion */
+#form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  border: 2px solid var(--black);
+  padding: 80px 150px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  font-size: larger;
+}
+
+.form-group label {
+  width: 110px;
+}
+
+.form-group input {
+  flex-grow: 1;
+}
+
+.button-form {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.primary-btn {
+  background-color: var(--black);
+  color: var(--white);
+  border: none;
+  padding: 10px 60px;
+  margin-right: 20px;
+}
+
+.primary-btn:hover {
+  background-color: var(--violetred);
+}
+
+.secondary-btn {
+  background-color: var(--white);
+  color: var(--black);
+  border: 1px solid var(--black);
+  padding: 10px 60px;
+  margin-left: 20px;
+}
+
+.secondary-btn:hover {
+  background-color: var(--light-gray);
+}
