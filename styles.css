@@ -21,6 +21,11 @@ body {
 }
 
 /* Navbar Section */
+#about h2 {
+  margin: 30px 30px;
+  text-align: center;
+}
+
 .header-container {
   width: 100%;
   background-color: var(--teal);
@@ -42,6 +47,7 @@ body {
 h1 {
   text-align: center;
   color: var(--teal);
+  margin-top: 30px;
 }
 
 /* About Section */
@@ -67,6 +73,7 @@ h1 {
 }
 
 .list-container {
+  display: inline-block;
   margin-top: 10px;
   list-style: circle;
   padding-left: 40px;
@@ -74,8 +81,42 @@ h1 {
 }
 
 /* Previous Work Section */
+#previous h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#form {
+  margin-bottom: 60px;
+}
+
+.previous-container {
+  border-left: 2px solid var(--teal);
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+
+.previous-container,
+.previous-exp {
+  margin-bottom: 30px;
+}
+
+.previous-des {
+  font-size: larger;
+  color: var(--teal);
+  margin-bottom: 10px;
+}
+
+.previous-par {
+  margin-left: 20px;
+  font-size: larger;
+}
 
 /* Project Work Section */
+#project h2 {
+  margin-bottom: 30px;
+}
+
 #project {
   display: flex;
   flex-direction: column;
@@ -126,6 +167,10 @@ h1 {
 }
 
 /* Form Section */
+#form h2 {
+  margin-bottom: 30px;
+}
+
 #form {
   display: flex;
   flex-direction: column;
