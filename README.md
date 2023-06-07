@@ -7,4 +7,12 @@ The content constitutes the professional website project that highlights my pers
 
 This was the final project for CS463: Web Development 
 ## How to run
-
+- Download the starter files 
+  - index.HTML, style.css, and script.js
+- Use any browser to run the HTML file
+  - Optional: Download the live server plugin in VS Code 
+- The webpage will be live 
+## External Sources 
+- https://cssreference.io/
+- https://developer.mozilla.org/en-US/
+## Live Site 
