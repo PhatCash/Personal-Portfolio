@@ -16,4 +16,4 @@ This was the final project for CS463: Web Development
 - https://cssreference.io/
 - https://developer.mozilla.org/en-US/
 ## Live Site 
-[Click Me] (https://phatcash.github.io/Personal-Portfolio/)
+[Click Me](https://phatcash.github.io/Personal-Portfolio/)
