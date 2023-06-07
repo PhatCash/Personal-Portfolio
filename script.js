@@ -22,6 +22,7 @@ form.addEventListener("submit", (event) => {
     formValues[fieldName] = fieldValue;
   }
 
+  //Inform the user if errors were present
   if (errors) {
     console.error(
       "The form contains errors, please fix errors before submitting the form."
@@ -32,4 +33,16 @@ form.addEventListener("submit", (event) => {
   console.table(formValues);
 
   form.reset();
+});
+
+//Add en event listener when hovering over the image
+const image = document.querySelector(".img");
+
+image.addEventListener("mouseover", () => {
+  //Any bigger would make text overlap
+  image.style.transform = "scale(1.15)";
+});
+
+image.addEventListener("mouseout", () => {
+  image.style.transform = "scale(1)";
 });

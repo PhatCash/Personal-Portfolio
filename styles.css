@@ -245,7 +245,7 @@ h1 {
 }
 
 .secondary-btn:hover {
-  background-color: var(--light-gray);
+  background-color: var(--light-light-gray);
 }
 
 /* Media Queries */
