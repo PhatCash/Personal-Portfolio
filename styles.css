@@ -96,6 +96,7 @@ h1 {
   flex-direction: column;
   align-items: center;
   width: 100%;
+  font-size: large;
 }
 
 /* Previous Work Section */
@@ -252,7 +253,7 @@ h1 {
 /* For mobile devices */
 @media (max-width: 414px) {
   .bio {
-    font-size: large;
+    font-size: larger;
     width: auto;
     padding: 0 40px;
   }
@@ -273,10 +274,7 @@ h1 {
     margin-left: 0;
   }
 
-  .form-group {
-    flex-direction: column;
-  }
-
+  .form-group,
   .button-form {
     flex-direction: column;
   }
